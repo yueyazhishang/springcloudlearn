@@ -14,6 +14,8 @@
         <module>eurekaregister</module>
 		<module>producer</module>
        <module>spring-cloud-consumer</module>
+       <module>spring-cloud-consumer-hystrix</module>
+        <module>spring-cloud-consumer-hystrix-dashboard</module>
     </modules>
     <dependencies>
         <dependency>

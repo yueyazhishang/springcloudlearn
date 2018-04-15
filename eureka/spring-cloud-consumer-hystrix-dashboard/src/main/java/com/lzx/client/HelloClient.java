@@ -13,6 +13,7 @@ public interface HelloClient {
     @GetMapping("/hello")
     String hello(@RequestParam("name") String name);
 }
+
 @Component
  class HelloRemoteHystrix implements HelloClient{
     @Override
